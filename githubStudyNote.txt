@@ -1,0 +1,22 @@
+Github provides us a repository where we can add our code and let others view and contribute.
+ 
+To Host our code in github, we must
+
+Create a repo in github
+Then initialize git in our local machine with command
+- git init 
+now git is ready in out local machine, we can rename the default branch to main or leave it as master
+- git branch -m master main
+Now connect remote and local git repo
+- git remote add origin https://github.com/aaditya23shrestha/c-programming.git
+Now create .gitignore file and add the files which don't need to be in github repo
+Add files using
+-git add <filename>
+- git add .  (. adds all the files)
+or you can choose which file to add from vscode source control
+You can always check status with
+- git status
+Now commit all your changes with proper message
+- git commit -m "What work did"
+Finally push all your changes
+- git push origin main
